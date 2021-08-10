@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Lato","sans-serif";
+     background-color: #665c75;
+    color: #aab8c3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    overflow: hidden; 
+    margin: 0;
+}
+
+  
+  .btn {
+    color: rgb(71, 34, 34);
+    background: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+  
+  
+  .currency {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+  #amount-two[type=number]::-webkit-inner-spin-button, 
+#amount-two[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
