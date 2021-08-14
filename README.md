@@ -1,2 +1,2 @@
 # JavaScript_mini_projects
-30+ JavaScript small projects
+20+ JavaScript small projects
