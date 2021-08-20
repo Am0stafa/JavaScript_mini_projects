@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato","sans-serif";
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    overflow: hidden; 
+    margin: 0;
+}
+button {
+    background-color: purple;
+    color: #fff;
+    border: 1px purple solid;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+  }
+button .circle{
+    position: absolute;
+    background-color:white;
+    width: 90px;
+    height: 95px;
+    border-radius: 50%;
+    transition:transform;
+    transform: translate(-50% ,-50%) scale(0);
+    animation: scale 0.7s ease-in-out;
+}
+
+@keyframes scale {
+    to {
+      transform: translate(-50%, -50%) scale(3);
+      opacity: 0;
+    }
+  }
